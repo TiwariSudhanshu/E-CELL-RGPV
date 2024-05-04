@@ -9,7 +9,7 @@ export default function About(){
                  corporates to get involved with us.</p>
             <button id="bt2">Get Started<i class="fa-solid fa-arrow-right"></i></button>
             </div>
-            <img src="./src/assets/seg-1.png" alt="photo" />
+            <img src="https://i.pinimg.com/736x/ce/e5/f6/cee5f610f4aef1a09df3dea9d7ad1e1b.jpg" alt="photo" />
         </div>
         <div className="segment2">
             <div className="seg2-left">
@@ -22,7 +22,7 @@ export default function About(){
                 into the entrepreneurial theory and practice through activities and workshops.</p>
                 <button id="bt2">Read More <i class="fa-solid fa-arrow-right"></i></button>
             </div>
-            <img src="./src/assets/e-cell.jpg" alt="photo" />
+            <img src="https://i.pinimg.com/736x/a5/45/50/a54550f662ea9743e2fd61b931f2ed80.jpg" alt="photo" />
         </div>
         <div className="segment3">
             <h1 id="seg3-head">What we provide</h1>
