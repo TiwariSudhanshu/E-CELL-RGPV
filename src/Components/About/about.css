@@ -1,0 +1,157 @@
+.segment1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.seg1-left{
+    width: 600px;
+}
+
+.segment1 h1{
+    color: #1266f1;
+}
+.segment1 p{
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+.segment1 i, .segment2 i{
+    margin-left: 5px;
+}
+
+.segment2{
+    margin-top: 50px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.seg2-left{
+    border: 2px solid #312f4c;
+    padding: 30px;
+}
+.segment2 h2{
+    font-size: 2em;
+    color: #1266f1;
+    margin-bottom: 30px;
+
+}
+.segment2 img{
+    height: 440px;
+    width: 600px;
+}
+.segment2 p{
+    width: 500px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+.segment3{
+    margin-top: 100px;
+}
+#seg3-head{
+    text-align: center;
+    color: #1266f1;
+}
+
+.card{
+    height: 200px;
+    width: 300px;
+    border: 5px solid #08012b;
+    padding: 50px;
+    margin: 30px;
+}
+.card p{
+    line-height: 1.3em;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#c1:hover {
+    background-color: #2baef1; 
+}
+
+#c1:hover h1 {
+    background-color: #2baef1; 
+}
+
+#c1:hover p {
+    background-color: #2baef1; 
+}
+#c2:hover {
+    background-color: #f58b09; 
+}
+
+#c2:hover h1 {
+    background-color: #f58b09; 
+}
+
+#c2:hover p {
+    background-color: #f58b09; 
+}
+#c3:hover {
+    background-color: #06743b; 
+}
+
+#c3:hover h1 {
+    background-color: #06743b; 
+}
+
+#c3:hover p {
+    background-color: #06743b; 
+}
+#c4:hover {
+    background-color: #e9222c; 
+}
+
+#c4:hover h1 {
+    background-color: #e9222c; 
+}
+
+#c4:hover p {
+    background-color: #e9222c; 
+}
+#c5:hover {
+    background-color: #b50edf; 
+}
+
+#c5:hover h1 {
+    background-color: #b50edf; 
+}
+
+#c5:hover p {
+    background-color: #b50edf; 
+}
+
+@media screen and (max-width:1000px){
+    .segment2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:600px){
+    .segment1{
+        margin-left: 100px;
+    }
+    .segment2{
+        margin-left: 300px;
+    }
+    .segment3{
+        margin-left: 250px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .segment2{
+        margin-left: 500px;
+    }
+    #seg3-head{
+        margin-left: 80px;
+        width: 300px;
+        margin-top: 200px;
+    }
+}

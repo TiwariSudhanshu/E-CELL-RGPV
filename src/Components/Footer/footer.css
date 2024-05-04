@@ -1,0 +1,64 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+#footer-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.description{
+    width: 400px;
+}
+.description p{
+    line-height: 1.4em;
+}
+.social i{
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    opacity: 0.8;
+}
+.social i:hover{
+    opacity: 1;
+}
+.footer li {
+    list-style: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-left: -20px;
+}
+.footer li:hover{
+    color: #1266f1;
+}
+.footer li::before {
+    content: "\f054"; /* Unicode for the chevron-right icon */
+    font-family: "Font Awesome 5 Free"; /* Specify Font Awesome font family */
+    font-weight: 900;
+    margin-right: 0.5em;
+    font-size: 0.8em;
+}
+
+.footer h3{
+    color: #1266f1;
+    font-weight: 300;
+}
+
+.address{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.phone, .email{
+    font-size: 1.05em;
+    margin-bottom: 5px;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 1000px){
+    .f{
+        margin-left: 100px;
+    }
+}

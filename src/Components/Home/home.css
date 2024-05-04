@@ -1,0 +1,126 @@
+
+/* Banner CSS */
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+#logo{
+    height: 200px;
+    width: 500px;
+}
+
+.banner-text h1{
+    font-size: 3em;
+    color: #1266f1;
+}
+
+.banner-text p{
+    font-size: 1.3em;
+}
+.banner-text p span{
+    color: #1266f1;
+}
+
+#bt1{
+    background-color: rgba(18, 102, 241,0.9);
+    color: white;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#bt1:hover{
+    background-color:white;
+    color: #1266f1;
+    border: 2px solid #1266f1;
+    box-shadow: 2px 2px 4px #1266f1;
+}
+
+/* Vision segment css */
+
+
+#vision-logo{
+    height: 150px;
+}
+
+.heading-vision{
+    display: flex;
+    justify-content: center;
+}
+.vision h1{
+    margin-top: 50px;
+}
+
+.content-vision{
+    text-align: center;
+    margin: 50px 350px;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    opacity: 0.7;
+}
+
+.initiatives{
+    margin-top: 100px;
+    width: 800px;
+    margin-left: 400px;
+    text-align: center;
+}
+.initiatives h1{
+    font-size: 2.4em;
+}
+.initiatives p{
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+.belief{
+    margin-top: 100px;
+}
+.belief h1{
+    text-align: center;
+    font-size: 2.4em;
+
+    margin-bottom: 100px;
+}
+.is{
+    display: flex;
+    justify-content: space-around;
+}
+.is i{
+    font-size: 2em;
+    margin-left: 20px;
+}
+.is h2{
+    font-size: 1.8em;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width:1000px){
+    .h{
+        margin-left: 50px;
+    }
+    #logo{
+        transform: scale(0.8);
+    }
+    .content-vision{
+        width: 600px;
+        margin-left: 100px;
+    }
+    .heading-vision{
+        margin-left: 250px;
+        width: 300px;
+    }
+    .belief h1{
+        width: 700px;
+    }
+    .is{
+        margin-left: 120px;
+    }
+    .i{
+        margin-right: 80px;
+    }
+}

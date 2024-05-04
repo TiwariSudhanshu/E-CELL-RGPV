@@ -1,0 +1,46 @@
+.head{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+#team-heading{
+    font-size: 4.5em;
+    line-height: 1.5em;
+    color: #1266f1;
+}
+#e-cell-photo{
+    height: 300px;
+    width: 600px;
+}
+
+.team-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 1000px){
+    .head{
+        margin-left: 200px;
+    }
+    #team-heading{
+        font-size: 1.8em;
+        width: 500px;
+    }
+    #e-cell-photo{
+        display: none;
+    }
+    .team-cards{
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .team-cards{
+        margin-left: 300px;
+    }
+    
+}

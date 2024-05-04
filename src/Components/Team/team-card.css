@@ -1,0 +1,48 @@
+.team-card{
+    height: 150px;
+    width: 200px;
+    padding: 50px;
+    border: 5px solid #08012b;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+.team-card:hover{
+    transform: scale(1.1);
+}
+
+.team-card h3{
+    font-size: 1.3em;
+    opacity: 0.9;
+    text-align: center;
+
+}
+.team-card p{
+    text-align: center;
+    margin-left: -40px;
+    font-size: 1.1em;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.social-icons{
+    margin-top: 20px;
+    margin-left: 25px
+}
+.fa-instagram{
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 900px) {
+    .team-card{
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .social-icons{
+        display: none;
+    }
+}
