@@ -6,7 +6,7 @@ function Home(){
         <>
         <div className='banner h'> 
         {/* To display the first segment of home page */}
-            <img src="./src/assets/logo.png" alt="logo" id='logo' />
+            <img src="https://i.pinimg.com/736x/a8/70/39/a870394b536624b6573be8f34205a78a.jpg" alt="logo" id='logo' />
             <div className="banner-text">
                 <h1>An RGPV Initiative</h1>
                 <p>working to <span>provide internship</span></p>
@@ -17,7 +17,7 @@ function Home(){
             {/* Segment for vision section */}
             <div className="heading-vision">
             <h1>Our Vision</h1>
-            <img src="./src/assets/vision1.png" alt="vision" id='vision-logo'/>
+            <img src="https://i.pinimg.com/736x/e1/1d/a1/e11da134d83ef79eb0b88c14637afc26.jpg" alt="vision" id='vision-logo'/>
             </div>
             <div className="content-vision">
                 e-Entrepreneurship Cell, RGPV is a non-profit organization that believes entrepreneurship
