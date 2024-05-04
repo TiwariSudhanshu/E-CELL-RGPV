@@ -5,7 +5,7 @@ export default function Team(){
         <>
         <div className="head">
         <h1 id="team-heading">Team E-<br/>CELL RGPV</h1>
-        <img src="./src/assets/e-cell.jpg" id="e-cell-photo" />
+        <img src="https://i.pinimg.com/originals/a5/45/50/a54550f662ea9743e2fd61b931f2ed80.jpg" id="e-cell-photo" />
         </div>
         <div className="team-cards">
             <TeamCard name= "Albus Dumbeldore" role= "Head Coordinator" />
