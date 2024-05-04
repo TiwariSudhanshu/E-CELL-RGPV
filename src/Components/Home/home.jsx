@@ -6,7 +6,7 @@ function Home(){
         <>
         <div className='banner h'> 
         {/* To display the first segment of home page */}
-            <img src="https://ibb.co/TR8Dz0t" alt="logo" id='logo' />
+            <img src="https://postimg.cc/w1hRwMWb" alt="logo" id='logo' />
             <div className="banner-text">
                 <h1>An RGPV Initiative</h1>
                 <p>working to <span>provide internship</span></p>
