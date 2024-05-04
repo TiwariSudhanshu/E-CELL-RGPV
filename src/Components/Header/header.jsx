@@ -4,7 +4,7 @@ import "./header.css";
 function Header(){
     return(
         <div className="header">
-        <img src="https://ibb.co/TR8Dz0t" alt="logo"  id="header-logo"/>
+        <img src="https://i.pinimg.com/736x/fe/68/8c/fe688c4cc6ad30f29554c313cce582d0.jpg" alt="logo"  id="header-logo"/>
         
         <div className="navigations">
             <ul className="nav-list">
